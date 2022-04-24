@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Nanum+Pen+Script&display=swap');
+
+.page-inner-wrapper * {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fondamento', cursive;
+}
+.page-inner-wrapper {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    background: rgb(226, 226, 226);
+    background: url('../src/card-bg.png');
+    background-size: cover;
+    background-position: center;
+    border: solid 1px black;
+}
+.page-nav {
+    height: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0 20px;
+}
+.drag-switch {
+    position: absolute;
+    padding: 0 3px 0 3px;
+    right: 1em;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 4em;
+    height: 2em;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, 0.25);
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.drag-switch[data-ison="true"] {
+    justify-content: flex-end;
+}
+.drag-switch[data-ison="true"] .drag-handle {
+    background: white;
+}
+.drag-handle {
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+}
+.page-body {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 1em;
+}
+.page-body .page1 {
+    border-style: solid;
+    border-width: 1px;
+    height: 50%;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+}
+.card-part-1 {
+    width: 50%;
+    top: 0;
+    left: 0;
+}
+.card-part-2 {
+    width: 50%;
+    left: 50%;
+    top: 0;
+}
+.card-part-3 {
+    width: 33.34%;
+    bottom: 0;
+    left: 0;
+}
+.card-part-4 {
+    width: 33.34%;
+    bottom: 0;
+    left: 33.34%;
+}
+.card-part-5 {
+    width: 33.34%;
+    bottom: 0;
+    left: 66.67%;
+}
+.page-footer {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 5px 20px;
+}
+.page1-inner-body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}

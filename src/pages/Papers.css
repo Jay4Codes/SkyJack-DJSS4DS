@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze&display=swap');
+
+.wrapperStyle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(224, 224, 224);
+    background: url('../src/main-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.outerWrapperStyle {
+    position: relative;
+    width: 85vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.navDiv {
+    position: absolute;
+    width: 100%;
+    height: 8vw;
+    font-family: 'Grenze', serif;
+    font-variant: small-caps;
+    border-bottom: 2px solid ;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.8vw;
+    padding: 1em
+}
+.cardWrapStyle {
+    position: relative;
+    width: 80vw;
+    height: 36vw;
+}
+
+.cardStyle {
+    position: absolute;
+    width: 77.5vw;
+    height: 35vw;
+    left: -0.2vw;
+    top: 2vw;
+    border-radius: 8px;
+    list-style: none
+}
+.stepper-style {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.buzz
+{
+	display:inline-block;
+	position:relative;
+	color: black;
+	text-decoration:none;
+	transition:all 250ms ease;
+	transform:translatez(0);
+	perspective:50px;
+    cursor: pointer;
+
+}
+
+.buzz:before,
+.buzz:after
+{
+	content: attr(data-content);
+	position:absolute;
+	z-index:-1;
+	opacity:0.5;
+	transition:all 150ms ease;
+}
+
+.buzz:before
+{
+	color:#828282;
+}
+
+.buzz:after
+{
+	color:#ff0000;
+	bottom:0px; right:0px;
+}
+
+.buzz:hover:before
+{
+	transform:rotatex(-56deg) translateY(-28px) scale(0.6);
+}
+
+.buzz:hover:after
+{
+	transform: rotatex(56deg) translateY(28px) scale(0.6);
+}
