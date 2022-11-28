@@ -35,7 +35,7 @@ function Home() {
       <h1>About The Event</h1>
       <div className="about">
         <p>
-          <img images={image_note_1} alt="papers" />
+          <img src={image_note_1} alt="papers" />
         </p>
         <div className="searching">
           <div className="search">
@@ -59,12 +59,12 @@ function Home() {
       <h1>Dan Cooper</h1>
       <div className="cooper-info">
         <div className="cardfan">
-          <img images={image_plane} alt="plane" />
-          <img images={image_seat} alt="seat" />
-          <img images={image_ticket} alt="ticket" />
+          <img src={image_plane} alt="plane" />
+          <img src={image_seat} alt="seat" />
+          <img src={image_ticket} alt="ticket" />
         </div>
         <p>
-          <img images={image_note_2} alt="papers2" />
+          <img src={image_note_2} alt="papers2" />
         </p>
       </div>
       <h1>Timeline</h1>
@@ -167,7 +167,7 @@ function Home() {
       <div className="footer-space">
         <footer className="footer">
           <div className="footer__addr">
-            <img className="flag" images={image_flag} alt="flag" />
+            <img className="flag" src={image_flag} alt="flag" />
           </div>
           <ul className="footer__nav">
             <li className="nav__item">
@@ -233,7 +233,7 @@ function Home() {
             </li>
           </ul>
           <iframe
-            images="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.0060393298695!2d72.83500021485183!3d19.10739098706987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c676018b43%3A0x75f29a4205098f99!2sSVKM&#39;s%20Dwarkadas%20J.%20Sanghvi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1648445188551!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.0060393298695!2d72.83500021485183!3d19.10739098706987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c676018b43%3A0x75f29a4205098f99!2sSVKM&#39;s%20Dwarkadas%20J.%20Sanghvi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1648445188551!5m2!1sen!2sin"
             width="600"
             height="450"
             allowfullscreen=""

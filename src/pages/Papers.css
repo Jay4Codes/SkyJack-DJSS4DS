@@ -51,7 +51,6 @@
     left: -0.2vw;
     top: 2vw;
     border-radius: 8px;
-    list-style: none
 }
 
 .stepper-style {
@@ -63,14 +62,12 @@
 
 a {
     color: black;
-    text-decoration: none;
 }
 
 .buzz {
     display: inline-block;
     position: relative;
     color: black;
-    text-decoration: none;
     transition: all 250ms ease;
     transform: translatez(0);
     perspective: 50px;

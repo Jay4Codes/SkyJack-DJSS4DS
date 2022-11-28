@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
-
 body {
   font-family: 'Open Sans';
   background: #161616;
@@ -46,7 +45,7 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 :root {
@@ -84,7 +83,6 @@ ul {
   position: relative;
   overflow: hidden;
   border: 10px solid #ccc;
-  text-decoration: none;
 }
 
 .ds {
@@ -183,7 +181,6 @@ ul {
 
 .text-effect {
   background: url("../images/title.png");
-  background-size: cover;
   background-position: center;
   -webkit-background-clip: text;
   background-clip: text;
@@ -401,7 +398,6 @@ ul {
   margin: 0 auto;
   width: 1px;
   padding-bottom: 40px;
-  list-style-type: none;
 }
 
 .timeline ul li:last-child {
@@ -505,9 +501,7 @@ ul {
   right: -20px;
 }
 
-/* ----------------------------------
-   ----- Timeline Media Queries ----- 
-   ---------------------------------- */
+/* ----- Timeline Media Queries ----- */
 @media screen and (max-width: 1399px) {
   .timeline ul li .content {
     width: 200px;
@@ -563,7 +557,6 @@ ul {
 
 }
 
-/*Small devices (landscape phones, less than 768px)*/
 @media screen and (max-width: 575px) {
 
   .timeline ul li .content {
@@ -572,8 +565,6 @@ ul {
   }
 
 }
-
-/* *** timeline end *** */
 
 .red {
   color: red;
@@ -584,19 +575,16 @@ ul {
   margin: 0px auto;
 }
 
-/* Float three columns side by side */
 .column {
   float: left;
   width: 33.33%;
   padding: 0 10px;
 }
 
-/* Remove extra left and right margins, due to padding */
 .row {
   margin: 0 -5px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -700,17 +688,8 @@ div.cardfan:hover img:last-child {
   padding: 0 1.3em;
 }
 
-.footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 .footer li {
   line-height: 2em;
-}
-
-.footer a {
-  text-decoration: none;
 }
 
 .footer__nav {
@@ -775,7 +754,6 @@ div.cardfan:hover img:last-child {
   width: 80%;
 }
 
-/* button */
 .btn-16 {
   border: none;
   position: relative;
