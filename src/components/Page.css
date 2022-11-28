@@ -15,7 +15,7 @@
     flex-direction: column;
     color: rgb(0, 0, 0);
     background: rgb(226, 226, 226);
-    background: url('../src/card-bg.png');
+    background: url('../images/card-bg.png');
     background-size: cover;
     background-position: center;
     border: solid 1px black;

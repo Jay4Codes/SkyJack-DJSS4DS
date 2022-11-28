@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .flex-col-full-center {
     display: flex;
     flex-direction: column;
@@ -13,7 +14,7 @@
 .login-wrapper {
     height: 100vh;
     width: 100vw;
-    background: url('../src/main-bg.png');
+    background: url('../images/main-bg.png');
 }
 
 .login-box {
@@ -23,7 +24,7 @@
     margin-top: -80px;
     font-family: 'Grenze', serif;
     background-color: white;
-    background: url('../src/login-box-bg.png');
+    background: url('../images/login-box-bg.png');
     background-position: center;
     background-size: cover;
     filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
@@ -38,10 +39,12 @@
     text-align: center;
     padding-top: 20px;
 }
+
 .login-subtext {
     font-size: 1.6rem;
     margin-top: -20px;
 }
+
 .login-input-wrapper {
     display: flex;
     flex-direction: column;
@@ -49,6 +52,7 @@
     width: 100%;
     font-size: 1.2em;
 }
+
 .username-input {
     width: 15rem;
     margin-bottom: 1rem;
@@ -62,6 +66,7 @@
     padding: 0.5rem;
     border-radius: 7px;
 }
+
 .submit-button {
     width: 40%;
     padding: 0.5rem;
@@ -73,6 +78,7 @@
     font-size: large;
     cursor: pointer;
 }
+
 .home-button {
     position: relative;
     top: 300px;
@@ -88,12 +94,14 @@
     font-size: large;
     cursor: pointer;
 }
+
 .title-login-img {
     height: 116px;
     border-radius: 20px;
     margin-bottom: -40px;
     margin-top: -80px;
 }
+
 .credentials {
     margin-top: 10px;
     color: red;
